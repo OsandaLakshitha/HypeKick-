@@ -25,7 +25,7 @@ const FeaturedProducts = () => {
       rating: 4.9,
       reviews: 87,
       badge: "New",
-      colors: ["#000000", "#FFFFFF", "#FF6B6B", "#9B59B6"]
+      colors: ["#2C3E50", "#E74C3C", "#F39C12", "#9B59B6"]
     },
     {
       id: 3,
