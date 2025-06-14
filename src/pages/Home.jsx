@@ -7,6 +7,7 @@ import FeaturedProducts from "../components/FeaturedProducts";
 import CallToActionSection from "../components/CallToActionSection";
 import Footer from "../components/Footer";
 import InfiniteMenu from "../components/InfiniteMenu";
+import ScrollToTopArrow from "../components/ScrollToTopArrow";
 
 const items = [
   {
@@ -50,6 +51,7 @@ const Home = () => {
         <InfiniteMenu items={items}/>
       </div>
     </div>
+      <ScrollToTopArrow />
       <Footer />
     </main>
   );
