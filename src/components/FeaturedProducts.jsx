@@ -10,7 +10,7 @@ const FeaturedProducts = () => {
       name: "Air Hype Max",
       price: "$189",
       originalPrice: "$249",
-      image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=400&h=400&fit=crop",
       rating: 4.8,
       reviews: 124,
       badge: "Best Seller",
@@ -18,21 +18,21 @@ const FeaturedProducts = () => {
     },
     {
       id: 2,
-      name: "Street Runner Pro",
+      name: "Puma Sneaker",
       price: "$159",
       originalPrice: "$199",
-      image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=400&h=400&fit=crop",
       rating: 4.9,
       reviews: 87,
       badge: "New",
-      colors: ["#2C3E50", "#E74C3C", "#F39C12", "#9B59B6"]
+      colors: ["#000000", "#FFFFFF", "#FF6B6B", "#9B59B6"]
     },
     {
       id: 3,
       name: "Urban Legend",
       price: "$219",
       originalPrice: "$279",
-      image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1518002171953-a080ee817e1f?w=400&h=400&fit=crop",
       rating: 4.7,
       reviews: 203,
       badge: "Limited",
@@ -137,8 +137,8 @@ const FeaturedProducts = () => {
                     <span className="text-2xl font-bold text-white">{product.price}</span>
                     <span className="text-lg text-gray-500 line-through">{product.originalPrice}</span>
                   </div>
-                  <button className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full text-sm font-semibold hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 hover:scale-105">
-                    Add to Cart
+                  <button className="px-6 py-3 bg-white/10 backdrop-blur-sm text-white rounded-full font-semibold border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105">
+                      Add to Cart
                   </button>
                 </div>
               </div>
@@ -216,10 +216,10 @@ const FeaturedProducts = () => {
               </div>
             </div>
             <p className="text-gray-300 leading-relaxed mb-4">
-              "Finally found my perfect sneakers! The Street Runner Pro fits like a glove and the style is exactly what I was looking for. Customer service was amazing too!"
+              "Finally found my perfect sneakers! The Puma Sneaker fits like a glove and the style is exactly what I was looking for. Customer service was amazing too!"
             </p>
             <div className="flex items-center text-sm text-gray-500">
-              <span>Purchased: Street Runner Pro</span>
+              <span>Purchased: Puma Sneaker</span>
               <span className="mx-2">•</span>
               <span>1 month ago</span>
             </div>

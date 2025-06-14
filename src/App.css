@@ -53,3 +53,7 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+.rotate-left {
+  transform: rotate(-90deg);
+}
+

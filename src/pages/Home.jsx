@@ -4,6 +4,7 @@ import Navigation from "../components/Navigation";
 import { PricingCard } from "../components/PricingCard";
 import Card from "../components/Card";
 import FeaturedProducts from "../components/FeaturedProducts";
+import CallToActionSection from "../components/CallToActionSection";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Navigation />
       <HeroSection />
       <FeaturedProducts />
+      <CallToActionSection />
     </main>
   );
 };
