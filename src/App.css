@@ -1,42 +1,55 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.font-orbitron {
+  font-family: 'Orbitron', sans-serif !important;
+}
+.font-anton {
+  font-family: 'Anton', sans-serif !important;
+}
+.font-teko {
+  font-family: 'Teko', sans-serif !important;
+}
+.font-chakra {
+  font-family: 'Chakra Petch', sans-serif !important;
+}
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif !important;
+}
+.font-bungee {
+  font-family: 'Bungee', sans-serif !important;
+}
+.font-lobster {
+  font-family: 'Lobster', sans-serif !important;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.font-blackhanger {
+  font-family: 'Black Han Sans', sans-serif !important;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.font-merriweather {
+  font-family: 'Merriweather', sans-serif !important;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.font-raleway {
+  font-family: 'Raleway', sans-serif !important;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    background-position: -100%;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.shine {
+  animation: shine 5s linear infinite;
 }
 
-.card {
-  padding: 2em;
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;  
 }
 
-.read-the-docs {
-  color: #888;
+html::-webkit-scrollbar {
+  display: none;
 }
+
